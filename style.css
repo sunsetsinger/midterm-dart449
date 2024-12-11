@@ -16,6 +16,10 @@ body {
   margin-top: 200px;
 }
 
+.m-0 {
+  margin: 0;
+}
+
 .h-1-2 {
   height: 73%;
 }
@@ -60,26 +64,12 @@ body {
   padding: 10px;
 }
 
+.padding-big {
+  padding: 50px;
+}
+
 .text-center {
   text-align: center;
-}
-
-/*fonts*/
-
-.regrets-major {
-  font-family: "regrets-major", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-}
-.dorsa-regular {
-  font-family: "Dorsa", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.montserrat-bold {
-  font-family: "Montserrat";
-  font-weight: 500;
 }
 
 /*font-sizes*/
@@ -190,4 +180,33 @@ h2 {
 .visible {
   opacity: 1;
   transform: translateY(0);
+}
+
+#scrollButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#scrollButton:hover {
+  background-color: #555;
+}
+
+.no-underline {
+  text-decoration: none; /* No underline by default */
+  color: inherit;
+}
+
+.no-underline:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+#typewriter {
+
+
+  
 }
